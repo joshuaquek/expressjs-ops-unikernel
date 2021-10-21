@@ -5,5 +5,8 @@
     "ProjectID": "ops-nano-vm-demo",
     "Zone": "ap-southeast-1",
     "BucketName": "ops-nano-vm-demo-s3-bucket"
+  },
+  "RunConfig": {
+    "Ports": ["80"]
   }
 }

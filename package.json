@@ -9,7 +9,7 @@
     "deploy:aws": "npm install; ops image create -t aws --imagename expressjs-ops -c config.json --package node_v14.2.0 -a index.js"
   },
   "author": "Joshua Quek",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^10.0.0",

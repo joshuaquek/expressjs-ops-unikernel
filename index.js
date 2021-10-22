@@ -12,7 +12,11 @@ app.use(logger('dev'));
 
 // ---- Express Server Endpoints ----
 app.get('/', (req, res) => {
-  res.json({ status: 'Server is running.' } );
+  res.json({ 'status': 'Server is running.' } );
+});
+
+app.get('/cloud', (req, res) => {
+  res.json({ 'message': 'Hello World to Cloud Team!' } );
 });
 
 console.log('Server running at http://127.0.0.1:80/')

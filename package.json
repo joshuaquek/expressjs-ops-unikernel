@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "local:deploy": "npm install; ops pkg load node_v14.2.0 -p 80 -f -n -c config.json -a index.js",
-    "aws:upload": "npm install; ops image create -t aws --imagename expressjs-ops -c config.json --package node_v14.2.0 -a index.js",
+    "aws:upload": "npm install; ops image create -n -t aws --imagename expressjs-ops -c config.json --package node_v14.2.0 -a index.js",
     "aws:deploy": "ops instance create expressjs-ops -t aws -c config.json",
-    "vbox:deploy": "npm install; ops image create -t vbox --imagename expressjs-ops -c config.json --package node_v14.2.0 -a index.js"
+    "vbox:deploy": "npm install; ops image create -n -t vbox --imagename expressjs-ops -c config.json --package node_v14.2.0 -a index.js"
   },
   "author": "Joshua Quek",
   "license": "MIT",

@@ -1,7 +1,7 @@
 {
   "name": "expressjs-ops",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple ExpressJS Server (NodeJS) as a Unikernel using the Ops NanoVM framework",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

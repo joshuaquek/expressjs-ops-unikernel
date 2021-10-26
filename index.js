@@ -12,7 +12,7 @@ app.use(logger('dev'));
 
 // ---- Express Server Endpoints ----
 app.get('/', (req, res) => {
-  res.json({ 'status': 'Server is running.' } );
+  res.json({ 'status': 'ExpressJS nodejs server is running!' } );
 });
 
 app.get('/test_message', (req, res) => {

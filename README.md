@@ -10,19 +10,23 @@ npm install
 ```
 
 ## Running locally
-Running natively using nodejs:
+Running natively using nodejs locally on your com:
 ```bash
 npm start
 ```
 
-or if you wish package it into a unikernal and run it locally via Ops:
+or if you wish package it into a unikernal and run it locally on your com via Ops:
 ```bash
-npm run deploy:local
+npm run local:deploy
 ```
 
 ## Deploying to AWS
+Run these two commands below to get your first unikernel running on AWS
+* The first command uploads your unikernel to AWS as an AMI
+* The second command takes that AMI and creates an instance out of it
 ```bash
-npm run deploy:aws
+npm run aws:upload
+npm run aws:deploy
 ```
 
 ## Contributing

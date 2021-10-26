@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
   res.json({ 'status': 'Server is running.' } );
 });
 
-app.get('/cloud', (req, res) => {
-  res.json({ 'message': 'Hello World to the Cloud Team!' } );
+app.get('/test_message', (req, res) => {
+  res.json({ 'message': 'Hello World to the Everyone!' } );
 });
 
 console.log('Server running at http://127.0.0.1:80/')

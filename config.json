@@ -2,9 +2,9 @@
   "Dirs": ["node_modules"],
   "CloudConfig": {
     "Platform": "aws",
-    "ProjectID": "ops-nano-vm-demo",
+    "ProjectID": "expressjs-unikernel-demo",
     "Zone": "ap-southeast-1",
-    "BucketName": "ops-nano-vm-demo-s3-bucket"
+    "BucketName": "expressjs-unikernel-demo-s3-bucket"
   },
   "RunConfig": {
     "Ports": ["80"]

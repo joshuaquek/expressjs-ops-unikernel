@@ -13,6 +13,7 @@
     "vbox:deploy": "ops instance create expressjs-ops -t vbox -c config.json"
   },
   "author": "Joshua Quek",
+  "repository": "https://github.com/joshuaquek/expressjs-ops-unikernel",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",

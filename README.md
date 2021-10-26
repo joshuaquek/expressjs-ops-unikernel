@@ -1,4 +1,4 @@
-# ExpressJS Ops Unikernal
+# 🥜 ExpressJS Ops Unikernal
 A Simple ExpressJS Server as a Unikernel using the Ops NanoVM framework
 
 ## Pre-setup

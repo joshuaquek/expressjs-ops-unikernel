@@ -4,8 +4,7 @@
     "Platform": "aws",
     "ProjectID": "expressjs-unikernel-demo",
     "Zone": "ap-southeast-1",
-    "BucketName": "expressjs-unikernel-demo-s3-bucket",
-    "Flavor": "t2.micro"
+    "BucketName": "expressjs-unikernel-demo-s3-bucket"
   },
   "RunConfig": {
     "Ports": ["80"],

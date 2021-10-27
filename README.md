@@ -48,6 +48,8 @@ You can further configure your unikernel via `config.json`
 }
 ```
 
+If one decides to use unikernels for production purposes, it would be advisable from an architectural perspective to deploy your unikernel instances on a private subnet (via the `Subnet` key-value pair in your `config.json`), and then route traffic to these private instances using a HTTP/HTTPS load balancer. 
+
 ## Contributing
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 

@@ -29,6 +29,25 @@ npm run aws:upload
 npm run aws:deploy
 ```
 
+## Configuration File
+You can further configure your unikernel via `config.json`
+```json
+{
+  "Dirs": ["node_modules"], // sub-directories to include in your unikernel
+  "CloudConfig": {
+    "Platform": "aws",
+    "ProjectID": "expressjs-unikernel-demo",
+    "Zone": "ap-southeast-1",
+    "BucketName": "expressjs-unikernel-demo-s3-bucket",
+    "VPC": "vpc-0bacb815016d9c718",       // AWS VPC ID
+    "Subnet": "subnet-09dcbcba1246621a7"  // AWS Subnet ID
+  },
+  "RunConfig": {
+    "Ports": ["80"]   // Ports to be exposed
+  }
+}
+```
+
 ## Contributing
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 

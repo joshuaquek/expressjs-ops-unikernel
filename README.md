@@ -1,5 +1,5 @@
 # 🥜 ExpressJS Ops Unikernel
-Full step-by-step tutorial with screenshots here: https://medium.com/@joshua.quek/cloud-containerisation-is-great-but-have-you-heard-of-unikernels-66937898c4d3
+Full step-by-step tutorial on how to deploy this repo with screenshots here: https://medium.com/@joshua.quek/cloud-containerisation-is-great-but-have-you-heard-of-unikernels-66937898c4d3
 
 A Simple ExpressJS Server (NodeJS) as a Unikernel using the Ops NanoVM framework
 
